@@ -1,0 +1,35 @@
+package selfProgramming2;
+
+public class MyIncome {
+
+	public static void main(String[] args) {
+		
+		double income = 1500;
+		final double MIN_LEVEL = 1000;
+		int age=50;
+		double amount = 500;
+		double balance = 1500;
+		
+		
+		// TODO Auto-generated method stub
+		// if income > (MIN_LEVEL) && (age <= 50))
+		// Sytem.out.println (" Can Apply Loan");
+		
+	// single statement
+	if ((amount <= 1000.0) && (amount <= balance))
+		 balance = balance - amount;
+	System.out.println("1. Acc new balance = " + balance);
+	
+	// block statement
+	if ((amount <= 1000.0) && (amount <= balance)) {
+		balance = balance - amount;
+		System.out.println("2. Acc new balance = " + balance);
+	}
+		   
+		if ((amount <= 1000.0) && (amount <= balance)) {
+			balance = balance + 500.0;
+			System.out.println("3. Acc new balance = " + balance);
+		}
+	}
+
+}
