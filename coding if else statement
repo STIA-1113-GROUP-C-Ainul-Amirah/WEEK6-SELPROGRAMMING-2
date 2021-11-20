@@ -1,0 +1,23 @@
+package selfProgramming2;
+
+public class IfElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 2; // 20
+		int y = 3;
+		
+		if (x<y) 
+		{
+			
+			System.out.println("Is true x less than y"); // less = more if 20 
+		} 
+		else
+		{ 
+			System.out.println("Is true x less than y"); // less = more if 20 
+		}
+		}
+	}
+
+
